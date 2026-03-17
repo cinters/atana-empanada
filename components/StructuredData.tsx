@@ -5,7 +5,7 @@ export default function StructuredData() {
     name: "A Tana Empanada",
     description:
       "Veteran-owned food truck serving handcrafted empanadas in Charlotte, NC. Love Food · Live Free.",
-    url: "https://atanaempanada.com",
+    url: "https://www.atanaempanada.com",
     telephone: "+19803554099",
     email: "info@atanaempanada.com",
     servesCuisine: ["Latin American", "Empanadas"],
@@ -25,7 +25,7 @@ export default function StructuredData() {
       "https://www.facebook.com/atanafoodtruck/",
       "https://streetfoodfinder.com/atanafoodtruck",
     ],
-    menu: "https://atanaempanada.com/menu",
+    menu: "https://www.atanaempanada.com/menu",
     hasMap: "https://streetfoodfinder.com/atanafoodtruck",
   };
 
