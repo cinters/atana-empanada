@@ -63,7 +63,14 @@ export default function Footer() {
               <a href="mailto:info@atanaempanada.com" className="block hover:text-gold transition-colors">
                 ✉️ info@atanaempanada.com
               </a>
-              <p>💸 Venmo: @Atanafoodtruck</p>
+              <a
+                href="https://venmo.com/Atanafoodtruck"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block hover:text-gold transition-colors"
+              >
+                💸 Venmo: @Atanafoodtruck
+              </a>
             </div>
             <div className="flex gap-3 mt-6">
               <a

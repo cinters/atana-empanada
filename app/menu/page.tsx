@@ -71,9 +71,14 @@ export default function MenuPage() {
                 Find the Truck
               </a>
             </div>
-            <p className="text-navy-dark/50 text-sm mt-6">
+            <a
+              href="https://venmo.com/Atanafoodtruck"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block text-navy-dark/50 text-sm mt-6 hover:text-gold transition-colors"
+            >
               💸 Venmo: <span className="font-bold text-navy">@Atanafoodtruck</span>
-            </p>
+            </a>
           </div>
         </section>
       </main>

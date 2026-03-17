@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 // "Order Now" links to /order which embeds the Square site inline
 
 const links = [
@@ -14,6 +15,7 @@ const links = [
 
 export default function Nav() {
   const [open, setOpen] = useState(false);
+  const pathname = usePathname();
 
   return (
     <nav className="sticky top-0 z-50 bg-cream/95 backdrop-blur border-b border-border shadow-sm">
@@ -33,7 +35,11 @@ export default function Nav() {
             <Link
               key={l.href}
               href={l.href}
-              className="text-navy font-bold text-sm tracking-wide hover:text-gold transition-colors"
+              className={`text-navy font-bold text-sm tracking-wide transition-colors hover:text-gold ${
+                pathname === l.href
+                  ? "border-b-2 border-gold pb-0.5"
+                  : ""
+              }`}
             >
               {l.label}
             </Link>
@@ -72,7 +78,9 @@ export default function Nav() {
               key={l.href}
               href={l.href}
               onClick={() => setOpen(false)}
-              className="text-navy font-bold text-base py-1 hover:text-gold transition-colors"
+              className={`text-navy font-bold text-base py-1 transition-colors hover:text-gold ${
+                pathname === l.href ? "text-gold border-b-2 border-gold" : ""
+              }`}
             >
               {l.label}
             </Link>
