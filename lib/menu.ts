@@ -43,6 +43,58 @@ export const menuSections: MenuSection[] = [
     ],
   },
   {
+    title: "Wings",
+    items: [
+      {
+        name: "Wings",
+        description: "3 jumbo whole wings (drum and flat together) — seasoned and fried to perfection.",
+        price: "$14.00",
+        emoji: "🍗",
+      },
+      {
+        name: "Mango Habanero Wings",
+        description: "3 jumbo whole wings tossed in sweet, fiery mango habanero sauce.",
+        price: "$14.00",
+        emoji: "🥭",
+      },
+      {
+        name: "Bourbon Wings",
+        description: "3 jumbo whole wings tossed in rich, smoky bourbon sauce.",
+        price: "$14.00",
+        emoji: "🥃",
+      },
+      {
+        name: "Buffalo Wings",
+        description: "3 jumbo whole wings tossed in classic buffalo sauce.",
+        price: "$14.00",
+        emoji: "🔥",
+      },
+      {
+        name: "BBQ Wings",
+        description: "3 jumbo whole wings tossed in bold, tangy BBQ sauce.",
+        price: "$14.00",
+        emoji: "🍖",
+      },
+    ],
+  },
+  {
+    title: "Wing Combos",
+    items: [
+      {
+        name: "Flavored Wings & Fries",
+        description: "3 jumbo whole wings tossed in your choice of sauce (Bourbon, Buffalo, BBQ, or Mango Habanero), served with crispy golden fries.",
+        price: "$17.00",
+        emoji: "🍗🍟",
+      },
+      {
+        name: "Wings & Fries",
+        description: "3 jumbo whole savory naked wings served with crispy golden fries.",
+        price: "$15.00",
+        emoji: "🍗🍟",
+      },
+    ],
+  },
+  {
     title: "Sides",
     items: [
       {
