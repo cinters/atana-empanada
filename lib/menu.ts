@@ -75,6 +75,12 @@ export const menuSections: MenuSection[] = [
         price: "$14.00",
         emoji: "🍖",
       },
+      {
+        name: "Hot Honey Wings",
+        description: "3 jumbo whole wings tossed in sweet and spicy hot honey sauce.",
+        price: "$14.00",
+        emoji: "🍯",
+      },
     ],
   },
   {
@@ -82,7 +88,7 @@ export const menuSections: MenuSection[] = [
     items: [
       {
         name: "Flavored Wings & Fries",
-        description: "3 jumbo whole wings tossed in your choice of sauce (Bourbon, Buffalo, BBQ, or Mango Habanero), served with crispy golden fries.",
+        description: "3 jumbo whole wings tossed in your choice of sauce (Bourbon, Buffalo, BBQ, Mango Habanero, or Hot Honey), served with crispy golden fries.",
         price: "$17.00",
         emoji: "🍗🍟",
       },
